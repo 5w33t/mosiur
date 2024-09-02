@@ -4,7 +4,7 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
-		slug: 'software-engineer',
+		slug: 'software-engineer-soarx',
 		company: 'SoarX',
 		description: 'As a Flutter Developer, I designed and implemented cross-platform mobile applications, ensuring high performance and responsiveness. I collaborated closely with UI/UX designers to create intuitive user interfaces, integrated RESTful APIs, and utilized Flutter\'s widget library to deliver robust and scalable apps. My role involved optimizing code for efficiency and maintaining clean architecture to support long-term project success',
 		contract: ContractType.FullTime,
@@ -51,7 +51,7 @@ export const items: Array<Experience> = [
 		shortDescription: 'Analyzing data, extracting valuable insights, and informing data-driven decisions for improved business performance..'
 	},
 	{
-		slug: 'software-engineer',
+		slug: 'software-engineer-enosis',
 		company: 'Enosis Solutions',
 		description: 'Design, develop, and maintain software applications, implement solutions, conduct testing, and collaborate in agile teams for successful project delivery.',
 		contract: ContractType.FullTime,
