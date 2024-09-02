@@ -4,36 +4,51 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'athena-gpt-flutter',
 		color: '#5e95e3',
-		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		description: 'Leveraged the capabilities of ChatGPT 3.5 with OpenAPI Integration. Implemented riverpod as state management and utilized speech-to-text and chatgpt_sdk package for natural conversations.',
+			shortDescription:
+			'Leveraged the capabilities of ChatGPT 3.5 with OpenAPI Integration. Implemented riverpod as state management and utilized speech-to-text and chatgpt_sdk package for natural conversations.',
+			links: [{ to: 'https://github.com/5w33t/flutter_projects/tree/main/project_athena', label: 'GitHub' }],
+		logo: Assets.Flutter,
+		name: 'Athena GPT',
 		period: {
-			from: new Date()
+			from: new Date(2024, 4, 1), to: new Date(2024, 4, 15),
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('flutter', 'dart', 'firebase'),
+		type: 'Cross Platform App'
 	},
 	{
-		slug: 'slick-portfolio-svelte',
+		slug: 'tong-flutter',
+		color: '#5e95e3',
+		description: 'Tong allows users to virtually connect with others through video, audio, and chat. Built using firebase and jitsi SDK',
+			shortDescription:
+			'Tong allows users to virtually connect with others through video, audio, and chat. Built using firebase and jitsi SDK',
+			links: [{ to: 'https://github.com/5w33t/flutter_projects/tree/main/tong_app', label: 'GitHub' }],
+		logo: Assets.Flutter,
+		name: 'Tong - Unlimited Adda',
+		period: {
+			from: new Date(2024, 5, 1), to: new Date(2024, 5, 21),
+		},
+		skills: getSkills('flutter', 'dart', 'firebase'),
+		type: 'Cross Platform App'
+	},
+
+	{
+		slug: 'ramadan-app-flutter',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'Access accurate Sehri and Iftar timings. Built using the BLoC architecture for efficient state management',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+			'Access accurate Sehri and Iftar timings. Built using the BLoC architecture for efficient state management',
+		links: [{ to: 'https://github.com/5w33t/flutter_projects/tree/main/ramadan_app', label: 'GitHub' }],
+		logo: Assets.Flutter,
+		name: 'Ramdan App',
 		period: {
-			from: new Date()
+			from: new Date(2024, 5, 1), to: new Date(2024, 5, 7),
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('flutter', 'dart'),
+		type: 'Cross Platform App',
 		screenshots: [
 			{
 				label: 'screen 1',
