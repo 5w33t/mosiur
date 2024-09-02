@@ -9,7 +9,7 @@ export const items: Array<Education> = [
 		logo: Assets.VU,
 		name: '',
 		organization: 'Varendra University',
-		period: { from: new Date(2016, 1, 1), to: new Date(2020, 1, 1) },
+		period: { from: new Date(2016, 1, 1), to: new Date(2019, 12, 31) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
 		subjects: ['C', 'C++', 'Java', 'English', 'Algorithm', 'Data Structure', 'Web Programming', 'Machine Learning' ]
