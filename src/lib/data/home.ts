@@ -13,11 +13,11 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/5w33t' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/rahmansweet'
+		link: 'https://www.linkedin.com/in/rahmansweet/'
 	},
 	{
 		platform: Platform.Twitter,
-		link: 'https://https://x.com/MrOct8'
+		link: 'https://https://x.com/@MrOct8'
 	},
 	{
 		platform: Platform.StackOverflow,
