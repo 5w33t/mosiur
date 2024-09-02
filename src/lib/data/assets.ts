@@ -67,6 +67,7 @@ const Assets = {
 	Nuxt: a('nuxt.png'),
 	Vite: a('vite.png'),
 	Vitest: a('vitest.svg'),
+	VU: a('vu.png'),
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
