@@ -3,22 +3,21 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Mosiur';
 
-export const lastName = 'LastName';
+export const lastName = 'Rahman Sweet';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
-
+	'A passionate Flutter developer with hands-on experience in leveraging state management solutions like GetX, BLoC, and Riverpod. Extensive knowledge of Dart Language and Flutter SDK. Committed to staying ahead of the curve and continuously expanding my skillset.';
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/5w33t' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
+		link: 'https://www.linkedin.com/rahmansweet'
 	},
 	{
 		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
+		link: 'https://https://x.com/MrOct8'
 	},
 	{
 		platform: Platform.StackOverflow,
@@ -26,7 +25,7 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'sweet.csevu@gmail.com'
 	},
 	{
 		platform: Platform.Youtube,
@@ -34,8 +33,8 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
+		link: 'https://www.facebook.com/mosiur.csevu'
 	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('java', 'kotlin', 'dart', 'flutter', 'firebase');
