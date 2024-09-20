@@ -10,7 +10,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Rajshahi, Bangladesh',
-		period: { from: new Date(2024, 9, 1), },
+		period: { from: new Date(2024, 8, 1) },
 		skills: getSkills('dart', 'flutter', 'firebase', 'kotlin'),
 		name: 'Co-founder and CEO',
 		color: 'orange',
