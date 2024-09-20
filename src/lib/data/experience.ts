@@ -4,6 +4,21 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
+		slug: 'cofounder-orange-owl',
+		company: 'Orange Owl',
+		description: 'As the Co-founder and CEO of Orange Owl, I oversee the strategic direction and operations of the company. My role involves leading product innovation, managing key partnerships, and ensuring the successful execution of our projects. I focus on driving growth while fostering a collaborative and results-oriented work environment.',
+		contract: ContractType.FullTime,
+		type: 'Software Development',
+		location: 'Rajshahi, Bangladesh',
+		period: { from: new Date(2024, 9, 1), },
+		skills: getSkills('dart', 'flutter', 'firebase', 'kotlin'),
+		name: 'Co-founder and CEO',
+		color: 'orange',
+		links: [],
+		logo: Assets.Owl,
+		shortDescription: 'As the Co-founder and CEO of Orange Owl, I oversee the strategic direction and operations of the company. My role involves leading product innovation, managing key partnerships, and ensuring the successful execution of our projects. I focus on driving growth while fostering a collaborative and results-oriented work environment.',
+	},
+	{
 		slug: 'software-engineer-soarx',
 		company: 'SoarX',
 		description: 'As a Flutter Developer, I designed and implemented cross-platform mobile applications, ensuring high performance and responsiveness. I collaborated closely with UI/UX designers to create intuitive user interfaces, integrated RESTful APIs, and utilized Flutter\'s widget library to deliver robust and scalable apps. My role involved optimizing code for efficiency and maintaining clean architecture to support long-term project success',
