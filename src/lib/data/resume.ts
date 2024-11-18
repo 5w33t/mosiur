@@ -1,3 +1,3 @@
-export const data = 'https://drive.google.com/file/d/10EqtMVj7-D37mgDO7GZ5lmNKorveGdtx/view?usp=sharing';
+export const data = 'https://docs.google.com/document/d/1M-6cQuPt9r39_8-PVs6NfjZV91VntxjLIHViF2McFxc/edit?usp=sharing';
 
 export const title = 'Resumé';
