@@ -69,7 +69,7 @@ export const items: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Feature Graphics',
-				src: 'https://i.ibb.co.com/qWgxwXZ/d-TRt-B3-AIHz-G4-1024-500.png'
+				src: 'https://ibb.co.com/P9Wt83S'
 			},
 		],
 	},
