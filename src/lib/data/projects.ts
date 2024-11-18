@@ -19,7 +19,11 @@ export const items: Array<Project> = [
 		type: 'Cross Platform App',
 		screenshots: [
 			{
-				label: 'Splashh',
+				label: 'Feature Graphics',
+				src: 'https://ibb.co.com/WBbfs6r'
+			},
+			{
+				label: 'Splash',
 				src: 'https://i.ibb.co.com/6Xmy23V/Screenshot-1729748406.png'
 			},
 			{
